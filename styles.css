@@ -319,4 +319,29 @@ nav a:hover {
     .form-group textarea {
         max-width: 100%;
     }
+}.booking {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.booking h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #1a2a44;
+}
+
+.booking p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.booking-frame {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .booking h2 { font-size: 2rem; }
+    .booking-frame iframe { height: 500px; }
 }
